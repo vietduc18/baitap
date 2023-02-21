@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .header {
+        padding: 0 100px;
+        height: 50px;
+        background-color: blue;
+      }
+      .header_logo {
+        height: 100%;
+        font-size: 40px;
+        color: #fff;
+        float: left;
+      }
+      .header_nav {
+        float: right;
+      }
+      .header_nav li {
+        display: inline;
+        justify-content: center;
+        padding: 15px;
+        font-size: 25px;
+        color: #fff;
+      }
+      .section_item {
+      }
+      .section_title {
+        text-align: center;
+        font-size: 35px;
+        color: blue;
+      }
+      .section_course {
+        display: flex;
+      }
+      .section_course--item {
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+        height: 100%;
+        margin: 30px;
+        padding: 0 25px;
+        background-color: #fdfdfd;
+        box-shadow: 0 2px 3px 1px rgb(0 0 0 / 15%);
+      }
+      .section_img {
+        width: 474px;
+        height: 274px;
+      }
+      .section_thumb {
+        width: 100%;
+        height: 100%;
+      }
+      .footer {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 376px;
+        padding: 10px;
+        background-color: blue;
+        color: #fff;
+      }
+      .footer_item ul li {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header">
+        <div class="header_logo">Logo</div>
+        <ul class="header_nav">
+          <li>Khóa học</li>
+          <li>Sản phẩm</li>
+          <li>Trải nghiệm</li>
+        </ul>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <section>
+        <div class="section_item">
+          <h2 class="section_title">Các Khóa Học</h2>
+          <div class="section_course">
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://techmaster.vn/resources/image/route_frontend.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">Khóa HTML,CSS cơ bản</h3>
+                <p class="section_description--pra">
+                  Sau khi học xoong khóa học, chúng ta có thể tự thiết kế cho
+                  mình một trang web cơ bản hoàn chỉnh bằng HTML, CSS
+                </p>
+                <span class="section_description--session">16 buổi học</span>
+              </div>
+            </div>
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://techmaster.vn/resources/image/devops.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">DevOps</h3>
+                <p class="section_description--pra">
+                  Sau khi học xoong khóa học, chúng ta có thể tự thiết kế cho
+                  mình một trang web cơ bản hoàn chỉnh bằng HTML, CSS
+                </p>
+                <span class="section_description--session">32 buổi học</span>
+              </div>
+            </div>
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://techmaster.vn/resources/image/java-spring-boot.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">
+                  Java SpringBoot Fullstack
+                </h3>
+                <p class="section_description--pra">
+                  Lập trình Fullstack từ Frontend tới Backend với Java, khóa học
+                  duy nhất bao gồm cả kiến thức về cấu trúc dữ liệu và giải
+                  thuật
+                </p>
+                <span class="section_description--session">48 buổi học</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section_item">
+          <h2 class="section_title">Sản Phẩm Học Viên</h2>
+          <div class="section_course">
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://media.techmaster.vn/api/static/brbgh4451coepbqoch60/o4p7Pfbv"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">Online Book Store</h3>
+                <p class="section_description--pra">Học viên Tuấn Anh</p>
+              </div>
+            </div>
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://media.techmaster.vn/api/static/brbgh4451coepbqoch60/66E1JvJZ"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">Trang tuyển dụng</h3>
+                <p class="section_description--pra">Học viên Thế Dương</p>
+              </div>
+            </div>
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://media.techmaster.vn/api/static/c2m5ou451cob24f6skeg/c70jurc51cof74mrqu50"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">Angel Yoga Studio</h3>
+                <p class="section_description--pra">Học viên Hòa Khiêm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section_item">
+          <h2 class="section_title">Trải Nghiệm</h2>
+          <div class="section_course">
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://media.techmaster.vn/api/static/c2m5ou451cob24f6skeg/dkjejqFV"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">
+                  class="card-title">Hành trình của chú bộ đội áo lính trở thành
+                  lập trình viên FrontEnd ra sao?
+                </h3>
+                <p class="section_description--pra">
+                  Xin chào tất cả mọi người mình xin được giới thiệu mình tên là
+                  Lại Cao Đài sinh năm 1996 tại miền đất Hải Hậu, Nam...
+                </p>
+              </div>
+            </div>
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://media.techmaster.vn/api/static/brbgh4451coepbqoch60/XO7jSe8X"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">
+                  Trượt phỏng vấn có gì to tát đâu mà phải buồn! - Nguyễn Hòa
+                  Khiêm Java 07
+                </h3>
+                <p class="section_description--pra">
+                  Có hôm buổi chiều thấy cậu ôm laptop vào phòng học nhỏ ngồi
+                  riêng 1 lúc, mà lúc ra mặt mũi trông thẫn thờ lắm. Hóa ra...
+                </p>
+              </div>
+            </div>
+            <div class="section_course--item">
+              <div class="section_img">
+                <img
+                  class="section_thumb"
+                  src="https://media.techmaster.vn/api/static/brbgh4451coepbqoch60/s6Eg7iy0"
+                  alt=""
+                />
+              </div>
+              <div class="section_description">
+                <h3 class="section_description--title">
+                  Đường đời bôn ba Việt - Nhật của anh chàng 9x chuyển ngành lập
+                  trình Ngô Hoàng Hùng
+                </h3>
+                <p class="section_description--pra">
+                  Tháng 1 năm 2017, sau khi ra trường, mình đi làm ở 1 quán sửa
+                  laptop nhưng thực ra lại đi lắp camera là chủ yếu....
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div>
+        <div class="footer">
+          <div class="footer_item">
+            <h3>Về Chúng tôi</h3>
+            <ul>
+              <li>Thông tin liên lạc</li>
+              <li>Địa chỉ</li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h3>Giới thiệu</h3>
+            <ul>
+              <li>Giảng viên</li>
+              <li>Quy định</li>
+            </ul>
+          </div>
+          <div class="footer_item">
+            <h3>Tuyển sinh</h3>
+            <ul>
+              <li>Techmaster@gmail.com</li>
+              <li>Tư vấn đào tạo chuyên nghiệp</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
